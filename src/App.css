@@ -1,22 +1,19 @@
 @import '~antd/dist/antd.css';
 
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 100%;
+  width: 100%;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #070707;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,15 +23,53 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-image-div {
+  background-image: url("./static/yellowstone-background.JPG") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+html, body {
+  height: 100%;
+  margin: 0px;
+  background-image: url("./static/yellowstone-background.JPG") no-repeat center center fixed;
+}
+
+.body-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.body-content > div > img {
+  border-radius: 50%;
+  border: 5px solid black
+}
+
+body {
+  animation: 100000ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: teal;
   }
-  to {
-    transform: rotate(360deg);
+  20% {
+    background-color: gold;
+  }
+  40% {
+    background-color: indianred;
+  }
+  60% {
+    background-color: violet;
+  }
+  80% {
+    background-color: rgb(138, 96, 7);
+  }
+  100% {
+    background-color: teal;
   }
 }

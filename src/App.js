@@ -1,11 +1,12 @@
 import './App.css';
-import { Button } from 'antd';
+import NavigationBar from './components/Header';
+import Routes from './components/Routes';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <Button type="primary"> Antd Button</Button>
+      <NavigationBar />
+      <Routes />
     </div>
   );
 }
