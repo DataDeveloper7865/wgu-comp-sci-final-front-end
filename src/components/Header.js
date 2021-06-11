@@ -30,18 +30,18 @@ function NavigationBar() {
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="2">
-                        <Link to="/About">
-                            About
+                        <Link to="/Descriptive-Statistics">
+                            View Descriptive Statistics for S&P
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="3">
-                        <Link to="/Portfolio">
-                            Portfolio
+                        <Link to="/Prescriptive-Statistics">
+                            View Prescriptive Statistics for S&P
                         </Link>
                     </Menu.Item>
                     <Menu.Item key="4">
-                        <Link to="/Resume">
-                            Resume
+                        <Link to="/About">
+                            About
                         </Link>
                     </Menu.Item>
                 </Menu>

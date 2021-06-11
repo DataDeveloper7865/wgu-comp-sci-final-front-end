@@ -1,6 +1,5 @@
 import React from 'react';
-import { GithubOutlined, LinkedinOutlined } from '@ant-design/icons';
-import profilePic from '../static/profile-pic.JPG'
+import { GithubOutlined } from '@ant-design/icons';
 
 function Home() {
 

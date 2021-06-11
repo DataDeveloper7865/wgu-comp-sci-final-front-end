@@ -1,6 +1,5 @@
 @import '~antd/dist/antd.css';
 
-
 #root {
   height: 100%;
   width: 100%;
@@ -24,7 +23,6 @@
 }
 
 .bg-image-div {
-  background-image: url("./static/yellowstone-background.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -34,7 +32,6 @@
 html, body {
   height: 100%;
   margin: 0px;
-  background-image: url("./static/yellowstone-background.JPG") no-repeat center center fixed;
 }
 
 .body-content {

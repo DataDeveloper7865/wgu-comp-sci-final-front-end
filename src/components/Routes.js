@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Switch } from 'react-router';
-import Portfolio from './Portfolio';
+import PrescriptiveStats from './PrescriptiveStats';
 import About from './About';
-import Resume from './Resume';
+import DescriptiveStats from './DescriptiveStats';
 import Home from './Home';
 
 function Routes() {
@@ -12,11 +12,11 @@ function Routes() {
                 <Route path="/About">
                     <About />
                 </Route>
-                <Route path="/Resume">
-                    <Resume />
+                <Route path="/Descriptive-Statistics">
+                    <DescriptiveStats />
                 </Route>
-                <Route path="/Portfolio">
-                    <Portfolio />
+                <Route path="/Prescriptive-Statistics">
+                    <PrescriptiveStats />
                 </Route>
                 <Route path="/">
                     <Home />
