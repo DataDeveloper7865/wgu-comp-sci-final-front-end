@@ -9,16 +9,15 @@ function About() {
             
             <h1> This is the S&P 500 Statistics App</h1>
 
-            <p> The dataset was taken from kaggle.</p>
-            <p> Please follow the link below to see the source data.</p>
-            <a href="https://www.kaggle.com/paytonfisher/sp-500-companies-with-financial-information">
-                Kaggle Dataset
+            <p> The dataset uses the finnhub API.</p>
+            <p> Please follow the link below to view information on the API.</p>
+            <a href="https://finnhub.io/docs/api">
+                Finnhub API
             </a>
-
 
         </div>
 
-    ) 
+    )
 
 }
 
