@@ -5,7 +5,7 @@ function About() {
 
     return (
 
-        <div class="body-content">
+        <div className="body-content">
             
             <h1> This is the S&P 500 Statistics App</h1>
 

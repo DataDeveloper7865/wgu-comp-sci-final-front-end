@@ -5,7 +5,7 @@ function Home() {
 
 
     return (
-        <div class="body-content">
+        <div className="body-content">
            <div>
                 <h1>S&P 500 Stock Analyzer</h1>
             </div>

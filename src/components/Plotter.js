@@ -1,24 +1,26 @@
 import React from 'react';
 import Plot from 'react-plotly.js';
 
-function Plotter() {
+function Plotter(props) {
 
     return (
 
         <div>
-            <h1>Hello World From Plot</h1>
+            <h1>View Descriptive Statistics for {props.companyName}</h1>
+            {console.log("Data X is: ", props.dataX)}
+            {console.log("Data Y is: ", props.dataY)}
             <Plot
-            data={[
-                {
-                    x: [1, 2, 3],
-                    y: [2, 6, 3],
-                    type: 'scatter',
-                    mode: 'lines+markers',
-                    marker: {color: 'red'},
-                },
-                {type: 'bar', x: [1, 2, 3], y: [2, 5, 3]},
-                ]}
-                layout={ {width: '50%', height: '20%', title: 'A Fancy Plot'} }
+            data={
+                [
+                    {
+                        x: props.dataX,
+                        y: props.dataY,
+                        mode: 'markers',
+                        type: 'scatter'
+                    }
+                ]
+            }
+                layout={ {width: '50%', height: '20%', title: props.title} }
             />
         </div>
 
